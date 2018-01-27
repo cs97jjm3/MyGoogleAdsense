@@ -10,7 +10,7 @@
 <?php
 /*
 	User Support - a MantisBT plugin allowing users to express their view on individual issues.
-	Copyright (C) 2017  James Murrell
+	Copyright (C) 2018  James Murrell
 
 	This program is free software: you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
@@ -55,14 +55,14 @@ class MyGoogleAdvertsPlugin extends MantisPlugin {
         ?>
 <!-- Bottom HTML/PHP code goes here -->
 <div class="auto-style1">
-<iframe src="http://f1cs97jjm3.ddns.net/mantis/google.php" border="0" frameborder="0" name="f" scrolling="no" style="width: 751px; height: 92px"></iframe> 
+<iframe src="http://f1cs97jjm3.ddns.net/mantis/google.php" border="0" frameborder="0" name="f" scrolling="no" style="width: 751px; height: 92px"></iframe>
 
- 
+
 
         </div>
- 
 
- 
+
+
 
         <?php
     }
