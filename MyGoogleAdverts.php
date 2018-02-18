@@ -1,16 +1,10 @@
 
-<head>
-<style type="text/css">
-.auto-style1 {
-	text-align: center;
-}
-</style>
-</head>
+
 
 <?php
 /*
 	User Support - a MantisBT plugin allowing users to express their view on individual issues.
-	Copyright (C) 2018  James Murrell
+	Copyright (C) 2017  James Murrell
 
 	This program is free software: you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
@@ -54,15 +48,17 @@ class MyGoogleAdvertsPlugin extends MantisPlugin {
     public function bottom($p_event) {
         ?>
 <!-- Bottom HTML/PHP code goes here -->
-<div class="auto-style1">
-<iframe src="http://f1cs97jjm3.ddns.net/mantis/google.php" border="0" frameborder="0" name="f" scrolling="no" style="width: 751px; height: 92px"></iframe>
+<body style="margin-top: 0; margin-bottom: 0">
 
+<div class="auto-style1" text-align: right;>
+<iframe src="http://f1cs97jjm3.ddns.net/mantis/google.php" border="0" frameborder="0" name="f" scrolling="no" style="width: 720px; height: 92px; float: right;"></iframe> 
 
+ 
 
         </div>
+ 
 
-
-
+ 
 
         <?php
     }
@@ -73,7 +69,7 @@ class MyGoogleAdvertsPlugin extends MantisPlugin {
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-        <link rel="stylesheet" type="text/css" href="/custom/custom.css?t=20170415A"/>
+        
         <script class="my-stuff"
                 data-login-status="<?php echo auth_is_user_authenticated() ? 'is-not-anonymous' : 'is-anonymous'; ?>"
                 src="/custom/custom.js?t=20170415A">/* report bogue */</script>
